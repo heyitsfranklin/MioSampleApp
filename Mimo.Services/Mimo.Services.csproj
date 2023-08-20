@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Mimo.Common\Mimo.Common.csproj" />
+      <ProjectReference Include="..\Mimo.Database\Mimo.Database.csproj" />
+    </ItemGroup>
+
+</Project>
